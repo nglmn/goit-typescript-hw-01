@@ -3,3 +3,10 @@ const username: string = 'Max';
 const toggle: boolean = true;
 const empty: null = null;
 const callback = (a: number): number => { return 100 + a };
+
+console.log('Task  1: ')
+console.log(age);
+console.log(username);
+console.log( toggle);
+console.log( empty);
+console.log(callback(10));

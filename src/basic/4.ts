@@ -10,5 +10,9 @@ function calc(num1: number, num2: number): number {
 
 //never
 function customError(): never {
- throw new Error('Error');
+    throw new Error('Error');
 }
+
+console.log('Task  4: ')
+console.log(showMessage('message'));
+console.log(calc(10, 12));
