@@ -10,7 +10,7 @@ interface User{
 }
 
 
-const mango = {
+const mango: User = {
     name: 'Mango',
     age: 30,
     email: 'john@example.com',
@@ -20,7 +20,7 @@ const mango = {
     }
 };
 
-const poly = {
+const poly: User = {
     name: 'Mango',
     age: 30,
     email: 'john@example.com'

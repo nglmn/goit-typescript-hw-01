@@ -1,6 +1,6 @@
 type DetailsParam = {
-    createAt: object;
-    updateAt: object;
+    createAt: Date;
+    updateAt: Date;
 }
 type PageType = {
     title: string;
@@ -10,7 +10,7 @@ type PageType = {
     details?: DetailsParam;
 }
 
-const page1 = {
+const page1: PageType = {
     title: 'The awesome page',
     likes: 100,
     accounts: ['Max', 'Anton', 'Nikita'],
@@ -21,7 +21,7 @@ const page1 = {
   }
 }
 
-const page2 = {
+const page2: PageType = {
     title: 'Python or Js',
     likes: 5,
     accounts: ['Alex'],
